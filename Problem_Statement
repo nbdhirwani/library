@@ -1,0 +1,24 @@
+Create a web application for a book library. Your Single Page Application should:
+1. Have a form to add books (name and author) to the library, - Done
+2. Display a list of books, - Done
+3. Provide an option to mark books as ‘Borrowed’ vs ‘Available’, and - Done
+4. Give an option to delete a book. - Done
+
+Front-end:
+1. Implement the frontend in HTML, CSS and a modern Javascript framework (preferably ReactJs). - Done
+2. Follow Responsive UI approach. - Done
+3. Integrate your frontend with backend services. - Done
+4. Write supportive unit tests. - Done
+
+Back-end:
+1. Create a backend service using the technology of your choice (preferably Java or Node.js) - Done
+2. Implement HTTP RESTful APIs that supports all CRUD operations necessary for your application. - Done
+3. Use in-memory relational DB. - Done
+4. Write supportive unit tests. - Done
+
+Extra Challenges:
+1. Implement sorting the book list based on the book names. - Done
+2. Secure the API with OAuth2.0 protocol.
+3. Follow some API Resilience pattern (cache, retry, rate limit etc).
+4. Define the API in OpenApi specification (Swagger). - Done
+5. Try to consume another downstream HTTP RESTful API to enrich the data in the backend (e.g. GET https://jsonplaceholder.org/users)
