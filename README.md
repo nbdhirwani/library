@@ -24,7 +24,7 @@ mvn clean spring-boot:run
 ```commandline
 mvn clean test
 ```
-
+***
 ## Front-end
 The following guides illustrate how to use some features concretely:
 
