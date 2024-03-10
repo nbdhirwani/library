@@ -8,9 +8,11 @@ Following sections contain details of how to setup and access the back-end of th
 * Install maven and configure MAVEN_HOME, PATH, CLASSPATH etc.
 
 ### Running the application
-Run the following command on terminal from root directory (viz. library). It should start tomcat server on port 8080.
+Run the following commands on terminal from root directory (viz. library). It should start tomcat server on port 8080.
 ```commandline
-mvn clean spring-boot:run
+mvn clean
+mvn install 
+mvn spring-boot:run
 ```
 
 ### Accessing API Specification (Swagger)
