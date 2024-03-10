@@ -19,9 +19,7 @@ public class BeanConfiguration {
     @Bean
     @Profile("!test")
     public CommandLineRunner run(final UserService userService) throws Exception {
-        return args -> {
-            userService.loadUserData();
-        };
+        return args -> userService.loadUserData();
     }
 
     @Bean

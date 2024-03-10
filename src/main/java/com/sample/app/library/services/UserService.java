@@ -12,7 +12,6 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 @Service
 public class UserService {
@@ -32,9 +31,8 @@ public class UserService {
         final List<User> users = Arrays.stream(Objects.requireNonNull(userDTOS))
                 .map(userDTO -> {
                     final LoginDTO userDTOLogin = userDTO.getLogin();
-                    final User user = new User((long) userDTO.getId(), userDTO.getFirstname(), userDTO.getLastname(),
+                    return new User((long) userDTO.getId(), userDTO.getFirstname(), userDTO.getLastname(),
                             userDTOLogin.getUsername(), userDTOLogin.getPassword());
-                    return user;
                 }).toList();
         final List<User> loadedUsers = userRepository.saveAllAndFlush(users);
         System.out.println(loadedUsers);
