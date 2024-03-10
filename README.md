@@ -37,6 +37,9 @@ Run the following command on terminal from root directory (viz. library). It sho
 cd app
 npm start
 ```
+
+When started access the application in a browser at `http://localhost:3000`
+
 ### Testing the application
 ```commandline
 cd app
