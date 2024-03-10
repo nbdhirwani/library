@@ -38,7 +38,7 @@ cd app
 npm start
 ```
 
-When started access the application in a browser at `http://localhost:3000`
+When started access the application in a browser at [http://localhost:3000](http://localhost:3000)
 
 ### Testing the application
 ```commandline
