@@ -40,6 +40,11 @@ npm start
 
 When started access the application in a browser at [http://localhost:3000](http://localhost:3000)
 
+### Screenshots
+
+Find screen captures of this app in `screenshots` folder/directory. 
+
+
 ### Testing the application
 ```commandline
 cd app
